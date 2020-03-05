@@ -28,7 +28,7 @@ body{
 
 /* LAnding Page */
 .home-inner{
-    background: url("/Images/camera.jpg") no-repeat; /*Photo by Markus Spiske from Pexels*/
+    background: url("/images/camera.jpg") no-repeat; /*Photo by Markus Spiske from Pexels*/
 }
 .caption{
     width: 100%;
@@ -63,13 +63,9 @@ body{
 }
 
 /*Gallery */
-.for-later{
-    padding-top: 20px;
-    background: rgba(255, 99, 71, 0.63);
-    width: 100vw;
-    height: 400px;
+#gallery{
+    background: rgba(0, 0, 0, 0.801);
 }
-
 /* Clients */
 .for-later2{
     padding-top: 20px;
