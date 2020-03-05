@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navagation */ 
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.438);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.95rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-nav li{
+    padding: 0.6rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: whitesmoke;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(233, 55, 55, 0.794);
+}
+
+/* LAnding Page */
+.home-inner{
+    background: url("/Images/camera.jpg") no-repeat; /*Photo by Markus Spiske from Pexels*/
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:20%;
+    Left:20%;
+    color: Black;
+    z-index: 1;
+}
+.caption h1{
+    font-size: 4rem;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.5rem 0.3rem 0.5rem black;
+}
+.caption h3{
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    padding-bottom: 1rem;
+}
+.caption a{
+    border-radius: 2.9rem;
+}
+.caption a:hover{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.4s ease-in-out;
+
+}
+
+/*Gallery */
+.for-later{
+    padding-top: 20px;
+    background: rgba(255, 99, 71, 0.63);
+    width: 100vw;
+    height: 400px;
+}
+
+/* Clients */
+.for-later2{
+    padding-top: 20px;
+    background: rgba(19, 8, 126, 0.63);
+    width: 100vw;
+    height: 400px;
+}
+/* Fotter */
+
+footer{
+    background: linear-gradient(90deg, rgba(86, 86, 87, 0.918), rgba(86, 86, 87, 0.218));
+}
+.s-form-group{
+    display: flex;
+    justify-content: flex-end;
+}
+.sbtn:hover{
+    transition: all 0.3s ease-in-out;
+    background: rgba(0, 0, 0, 0.801);
+    color: white;
+    border-radius: 1rem;
+}
