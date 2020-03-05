@@ -28,7 +28,7 @@ body{
 
 /* LAnding Page */
 .home-inner{
-    background: url("/images/camera.jpg") no-repeat; /*Photo by Markus Spiske from Pexels*/
+    background: url("https://raw.githubusercontent.com/Alzwimn/Conrad/master/images/camera.jpg") no-repeat; /*Photo by Markus Spiske from Pexels*/
 }
 .caption{
     width: 100%;
